@@ -1,0 +1,88 @@
+<view class="active_block">
+    <view class="active_item_title">
+        <view class="active_title_wrap">
+            <view class="active_title">碳币折扣</view>
+        </view>
+    </view>
+    <view class="xq" style="{{ho}}">
+
+    <view class="c">碳币须知</view>
+    <view class="gb"bindtap="close">×</view>
+    <view>碳币折扣币使用规则：
+<br/>
+1、碳币是一种折扣币，具有一定的购物折扣作用。
+<br/>
+2、消费者可以通过参与环保活动、减少碳排放等方式获得碳币。
+<br/>
+3、碳币使用时可在指定商家处兑换相应的商品或服务。不同商家对碳币的接受程度可能会有所不同，请注意确认。
+<br/>
+4、每张碳币仅限在一次交易中使用，不可重复使用。
+<br/>
+5、碳币不能退换现金，也不可与其他折扣券同时使用。
+<br/>
+6、碳币有效期为一年，过期后将失去使用价值，请注意兑换时效。
+<br/>
+7、如有疑问，请咨询指定商家或相关服务机构。</view>
+    </view>
+    <view class="zx" bindtap="open">?</view>
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="../../images/sp/lm.jpg" style="width: {{imageWidth}};height: {{imageHeight}}" bindtap="go"></image>
+        </view>
+        <view class="active_goods_name">
+            纯天然无公害蓝莓酥
+        </view>
+        <view class="active_item_infor">
+            <text class="active_new_price">¥95</text>
+            <text class="active_old_price">¥190</text>
+
+            
+        <text bindtap='countdown' class="active_time">剩余: {{clock}}</text>
+        <!-- <text>{{micro_second}}</text>  -->
+        </view>
+    </view>
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="../../images/sp/R-Q.jpg" style="width: {{imageWidth}};height: {{imageHeight}}"></image>
+        </view>
+        <view class="active_goods_name">
+            汪汪牌空气清新剂
+        </view>
+        <view class="active_item_infor">
+            <text class="active_new_price">¥95</text>
+            <text class="active_old_price">¥190</text>
+            <text bindtap='countdown' class="active_time">剩余: {{clock}}</text>
+        </view>
+    </view>
+</view>
+<view>
+    <view class="active_item_title">
+        <view class="active_title_wrap">
+            <view class="active_title">参加团购</view>
+        </view>
+    </view>
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="../../images/sp/cc3.jpg" style="width: {{imageWidth}};height: {{imageHeight}}"></image>
+        </view>
+        <view class="active_goods_name">
+            太阳能充电器
+        </view>
+        <view class="active_item_infor">
+            <text class="active_group_price">团购价¥90</text>
+            <text class="active_time">三人团</text>
+        </view>
+    </view>
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="../../images//sp/bei.jpg" style="width: {{imageWidth}};height: {{imageHeight}}"></image>
+        </view>
+        <view class="active_goods_name">
+            高端环保玻璃杯
+        </view>
+        <view class="active_item_infor">
+            <text class="active_group_price">团购价¥80</text>
+            <text class="active_time">四人团</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,21 @@
+
+<view class="bg">   
+  
+<view class="personal_info" style="background-image: url(/images/my/bg.jpg);">
+
+	<view class="photo_wrap">
+
+        <image bindtap="bindViewTap" class="photo" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+	</view>
+
+    <view class="nickname">{{userInfo.nickName}}</view>
+</view>
+
+
+<view class="wode_item_wrap">
+	<view class="wode_item" wx:for="{{mode}}" wx:key="index">
+		{{item}}
+		<span class="arrow_wrap"></span>
+	</view>
+</view>
+<view class="wode_out" bindtap="userGo">请您登录</view></view>

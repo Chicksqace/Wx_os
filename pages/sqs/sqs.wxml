@@ -1,0 +1,189 @@
+<!--pages/swiperDome/swiperDome.wxml-->
+
+<import src="../../template/sq_item/sq_item"/>
+<view class="bg" style="background:  -webkit-linear-gradient(top,white,lightblue,rgb(83, 201, 248));">
+<view class="content">
+  <view class="loginTitle">
+    <view class="{{currentTab==0?'select' : 'default'}}"data-current="0"bindtap="switchNav">我的发布</view>
+    <view class="{{currentTab==1?'select' : 'default'}}"data-current="1" bindtap="switchNav">附近看看</view>
+  </view>
+  <view class="hr"></view>
+  <swiper current="{{currentTab}}" style="height:1000px">
+    <swiper-item style="height: 10px;">
+    <!-- 账号 -->
+ 
+
+    <view class="content">
+      <view class="item_content_top">
+        <view class="item_content_left">
+          <image src="../../images/tx/j.jpg" mode=""/>
+        </view>
+        <view class="item_content_right">
+          <view class="h3">
+            我
+          </view>
+          <view class="pl">
+          <text>旅游是人们放松身心的好方式，但也会对环境造成一定的影响。因此，我们应该选择低碳方式出行，比如步行、骑行等，同时也要关注旅游产业的生态状况，共同保护美丽自然。
+</text>
+</view>
+        </view>
+      </view>
+      <view class="item_content_bottom">
+        <view class="icon">
+          <text>点赞</text>
+          <image src="../../images/gn/z.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>评论</text>
+          <image src="../../images/gn/p.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>关注</text>
+
+        </view>
+      </view>
+    </view>
+    
+
+
+
+
+
+    <!-- <template is="sq_item" ></template> -->
+    </swiper-item>
+    <swiper-item>
+        <view class="content">
+      <view class="item_content_top">
+        <view class="item_content_left">
+          <image src="../../images/tx/x.jpg" mode=""/>
+        </view>
+        <view class="item_content_right">
+          <view class="h3">
+            用户一
+          </view>
+          <view class="pl">
+          <text >城市化进程中，如何实现低碳发展已成为当务之急。我们应该注重公共交通、开展垃圾分类、加强建筑节能等，共建低碳城市，为未来的环境和生活带来更多美好。</text>
+        </view>
+        </view>
+      </view>
+      <view class="item_content_bottom">
+        <view class="icon">
+          <text>点赞</text>
+          <image src="../../images/gn/z.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>评论</text>
+          <image src="../../images/gn/p.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>关注</text>
+
+        </view>
+      </view>
+      
+    </view>
+    <template is="sq_item" ></template>
+    <view class="content">
+      <view class="item_content_top">
+        <view class="item_content_left">
+          <image src="../../images/tx/a.png" mode=""/>
+        </view>
+        <view class="item_content_right">
+          <view class="h3">
+            用户三
+          </view>
+          <view class="pl">
+          <text>碳足迹是对环境的伤害，而我们的生产和生活都会产生碳排放。因此，我们应该采取积极的措施，减少自己的碳足迹，比如少开车、植树造林等，为环保事业贡献一份力量。
+</text>
+</view>
+        </view>
+      </view>
+      <view class="item_content_bottom">
+        <view class="icon">
+          <text>点赞</text>
+          <image src="../../images/gn/z.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>评论</text>
+          <image src="../../images/gn/p.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>关注</text>
+
+        </view>
+      </view>
+      
+    </view>
+    <view class="content">
+      <view class="item_content_top">
+        <view class="item_content_left">
+          <image src="../../images/tx/l.jpg" mode=""/>
+        </view>
+        <view class="item_content_right">
+          <view class="h3">
+            用户四
+          </view>
+          <view class="pl">
+          <text>旅游是人们放松身心的好方式，但也会对环境造成一定的影响。因此，我们应该选择低碳方式出行，比如步行、骑行等，同时也要关注旅游产业的生态状况，共同保护美丽自然。
+</text></view>
+        </view>
+      </view>
+      <view class="item_content_bottom">
+        <view class="icon">
+          <text>点赞</text>
+          <image src="../../images/gn/z.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>评论</text>
+          <image src="../../images/gn/p.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>关注</text>
+
+        </view>
+      </view>
+      
+    </view>
+    <view class="content">
+      <view class="item_content_top">
+        <view class="item_content_left">
+          <image src="../../images/tx/g.jpg" mode=""/>
+        </view>
+        <view class="item_content_right">
+          <view class="h3">
+            用户五
+          </view>
+          <view class="pl">
+          <text>能源是人类发展和生活不可或缺的重要资源，但其开采和使用也会产生一定的污染和负担。为了实现可持续发展，我们应该大力推广节能技术，降低能耗，共同创造美好未来。
+</text></view>
+        </view>
+      </view>
+      <view class="item_content_bottom">
+        <view class="icon">
+          <text>点赞</text>
+          <image src="../../images/gn/z.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>评论</text>
+          <image src="../../images/gn/p.png" mode=""/>
+        </view>
+        <view class="icon">
+          <text>关注</text>
+
+        </view>
+      </view>
+      </view>
+
+    </swiper-item>
+  </swiper>
+</view>
+
+
+
+    <view class="gb"bindtap="close" style="display: block;left:{{posX}}px;top:{{posY}}px" bindtouchmove="touchMove" bindtouchstart="touchStart" bindtouchend="touchEnd">+</view>
+  
+<view class="srk{{sys?'':'srkx'}}">
+<input type="text" class="sr"/>
+<button class="fb" style="width: 55px;margin-right: 20px;height: 30px;padding-left: 2px;height: 25px;">发布</button>
+</view>
+</view>

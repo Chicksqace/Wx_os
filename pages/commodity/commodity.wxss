@@ -1,0 +1,93 @@
+.active_item_title{
+    padding: 15px;
+    background-color: #FFF;
+}
+.active_title_wrap {
+    text-align: center;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000;
+    width: 80px;
+    margin: 0 auto;
+}
+.active_title {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #000;
+    font-weight: 700;
+}
+.active_goods_name {
+    background-color: #FFF;
+    padding: 7px 10px;
+    font-size: 14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.active_item_infor {
+    background-color: #FFF;
+    font-size: 14px;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+.active_new_price {
+    color: #FF0000;
+}
+.active_old_price {
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.active_time {
+    float: right;
+    font-size: 12px;
+}
+.active_block {
+    margin-bottom: 10px;
+}
+.active_group_price {
+    font-size: 12px;
+    color: #FF0000;
+}
+.zx{
+    background-color:azure ;
+    border: rgb(61, 68, 68) 1px solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: -40px 100px 20px 280px;
+    
+}
+.xq{
+    position: absolute;
+    left: 70rpx;
+    top: 120rpx;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(235, 245, 220,0.8) ;
+    border: rgb(119, 114, 114) 1px solid;
+    border-radius: 20px;
+    display: none;
+}
+
+.c{
+    text-align: center;
+    margin-top: 10px;
+}
+.gb{
+    position: relative;
+    left: 500rpx;
+    top: -30rpx;
+    background-color:rgb(223, 77, 20) ;
+    border: rgb(61, 68, 68) 1px solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 水平居中 */
+      
+}
